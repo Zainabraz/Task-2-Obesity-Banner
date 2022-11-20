@@ -1,0 +1,269 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap'); */
+
+
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+body {
+    background-color: #303e47;
+    font-family: sans-serif;
+    margin: 0 !important;
+    color: white;
+}
+
+.sectionOne,
+.sectionTwo,
+.sectionThree,
+.sectionFour,
+.sectionFive,
+.sectionSix,
+.sectionSeven {
+    width: 46%;
+    margin: 2% auto 3% !important;
+    text-align: center;
+
+}
+
+p {
+    font-size: 20px;
+}
+
+h2 {
+    font-size: 26px;
+}
+.headingBg{
+    font-size: 50px;
+}
+
+.sectionOne h2 {
+    font-size: 26px;
+}
+
+.sectionOne .colLeft,
+.sectionSix {
+    background-color: #ff9e1b;
+}
+
+.sectionOne .colRight {
+    background-color: #00b2e2;
+}
+
+.sectionOne .colLeft img {
+    width: 25%;
+}
+
+.sectionOne .colRight img {
+    width: 17%;
+    margin-left: -12% !important;
+}
+
+.sectionOne .colRight h1 {
+    display: inline;
+}
+
+.sectionOne .colLeft,
+.sectionOne .colRight {
+    height: 300px;
+    padding: 8% !important;
+    width: 50%;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.divTitle {
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3% !important;
+}
+
+.divImg {
+    width: 8%;
+}
+
+.divImg img {
+    width: 65%;
+    background-color: #00b3e3;
+    padding: 2%;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.divTxt h1 {
+    color: #e86169;
+    font-size: 70px;
+    font-weight: 800;
+    margin-top: -8% !important;
+}
+
+.divTxt h2 {
+    color: white;
+    font-size: 24px;
+    margin-top: -4% !important;
+    text-align: left;
+}
+
+.sectionTwo {
+    background-color: #ff5959;
+}
+
+.sectionTwo img {
+    width: 39%;
+}
+
+.contentBlock {
+    padding: 7% !important;
+}
+
+.iconBlock {
+    width: 30%;
+}
+
+.colRight .iconBlock p {
+    text-align: center;
+}
+
+.sectionTwo .colRight {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    align-content: center;
+    width: 90%;
+}
+
+.sectionTwo .colLeft h2 {
+    text-align: left;
+}
+
+.sectionTwo p {
+    text-align: left;
+    margin-top: 2% !important;
+}
+
+.secondHeading {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.sectionThree {
+    background-color: #00b2e2;
+    text-align: left;
+}
+
+.sectionThree img {
+    width: 7%;
+    margin-bottom: -2% !important;
+}
+
+.sectionThree .Title.secondHeading {
+    margin-bottom: 3% !important;
+}
+
+.sectionFour .colLeft {
+    background-color: #ff5959;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionFour .colRight {
+    background-color: #ff9e1b;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionFour .colLeft img {
+    width: 30%;
+    margin-top: 5% !important;
+}
+
+.sectionFour .colRight img {
+    width: 20%;
+    margin-bottom: 3% !important;
+}
+
+.sectionFive .contentBlock {
+    background-color: #00b2e2;
+    text-align: left;
+}
+
+.sectionFive .contentBlock .colRight,
+.sectionSix .contentBlock .colRight {
+    text-align: center;
+}
+
+.sectionFive .contentBlock img {
+    width: 40%;
+}
+
+.sectionSix img {
+    width: 46%;
+}
+
+.sectionSix {
+    text-align: left;
+}
+
+.sectionSeven img {
+    width: 28%;
+}
+
+.sectionSeven .colLeft {
+    background-color: #00b2e2;
+}
+
+.sectionSeven .colRight {
+    background-color: #ff5959;
+}
+
+.colLeft,
+.colRight {
+    width: 50%;
+}
+
+.sectionSeven .colLeft,
+.sectionSeven .colRight {
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.sectionSeven p {
+    line-height: 35px;
+    margin-top: 4% !important;
+}
+
+@media (max-width: 1400px) {
+
+    .sectionOne,
+    .sectionTwo,
+    .sectionThree,
+    .sectionFour,
+    .sectionFive,
+    .sectionSix,
+    .sectionSeven {
+        width: 55%;
+    }
+    .headingBg {
+        font-size: 42px;
+    }
+    .secondHeading {
+        font-size: 23px;
+    }
+}
